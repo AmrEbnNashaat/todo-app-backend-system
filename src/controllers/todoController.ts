@@ -93,3 +93,12 @@ export const deleteTodoForUser = async (req:any, res:any) => {
     }
 };
 
+// Get to do information for specific user
+export const getTodosForUser = async (req:any, res:any) => {
+    try {
+        const todos = await Todo.find({ userId: req.params.userId });
+        res.status(200).json(todos);
+    } catch (error) {
+        res.status(400).json({ error: error.message });
+    }
+};
