@@ -1,4 +1,3 @@
-```
 # ToDo App Backend
 
 This repository contains the backend code for a simple ToDo application. The application is built using Node.js, Express, and MongoDB, and it's designed to handle CRUD operations for ToDo items and user management.
@@ -59,11 +58,9 @@ After starting the server, the ToDo app backend will be running on `http://local
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Notes
-Don't forget to add your own DB connection to config/default.ts.
-
-- **Your Name** - *Initial work* - [YourGitHubUsername](https://github.com/YourGitHubUsername)
+Don't forget to add your own DB connection to config/default.ts
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-```
+
