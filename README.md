@@ -59,6 +59,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Notes
 Don't forget to add your own DB connection to config/default.ts
+Attached is a Postman collection running on port 1337 for testing the endpoints
 
 ## License
 
